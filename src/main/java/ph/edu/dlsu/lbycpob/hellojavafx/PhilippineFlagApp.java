@@ -5,7 +5,7 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
-public class PhilippineFlagApp {
+public class PhilippineFlagApp extends HelloApplication{
     private GraphicsContext graphics;
     private Canvas canvas;
 
