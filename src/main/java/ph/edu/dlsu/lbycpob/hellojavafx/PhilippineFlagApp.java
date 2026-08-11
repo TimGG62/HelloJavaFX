@@ -71,4 +71,34 @@ public class PhilippineFlagApp {
 
         graphics.strokeLine(centerX + rayLength, centerY - rayLength, centerX - rayLength, centerY + rayLength);
     }
+void drawSingleStar(double centerX, double centerY, double radius) {
+    double[] xPoints = new double[10];
+    double[] yPoints = new double[10];
+    double startingAngle = -90;
+    double innerRadius = radius * 0.4;
+    double currentRadius;
+    for(int i = 0; i < 10; i++) {
+        double angle = Math.toRadians(startingAngle + i * 36);
+
+        if(i%2 != 0){
+            currentRadius = innerRadius;
+        }
+        else {
+            currentRadius = radius;
+        }
+
+        xPoints[i] = centerX + currentRadius * Math.cos(angle);
+        yPoints[i] = centerY + currentRadius * Math.sin(angle);
+    }
+
+    graphics.setFill(Color.GOLD);
+    graphics.fillPolygon(xPoints, yPoints, 10);
+}
+
+void drawThreeStars(int x, int y, int width, int height) {
+    double starRadius = width * 0.03;
+    drawSingleStar(x+15, y+27, starRadius);
+    drawSingleStar(x+15, y+height-28, starRadius);
+    drawSingleStar(x+width/2 - 30, y+height/2, starRadius);
+}
 }
