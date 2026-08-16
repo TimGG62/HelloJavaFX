@@ -11,5 +11,6 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ce1126" height="100.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="400.0" />
       <Polygon fill="#e4e4e4" layoutX="83.0" layoutY="86.0" points="-83.0, 113.99996948242188, 68.20001220703125, 13.999969482421875, -83.0, -86.00001525878906" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
       <fx:include source="sun.fxml" />
+      <fx:include source="star.fxml" />
    </children>
 </AnchorPane>
