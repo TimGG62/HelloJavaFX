@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/25">
-    <!-- #TODO: Put the flag components here -->
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0038a8" height="100.0" stroke="BLACK" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="400.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ce1126" height="100.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="400.0" />
+      <Polygon fill="#e4e4e4" layoutX="83.0" layoutY="86.0" points="-83.0, 113.99996948242188, 68.20001220703125, 13.999969482421875, -83.0, -86.00001525878906" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+      <ImageView fitHeight="56.0" fitWidth="56.0" layoutX="25.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../philippine-sun-md.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="31.0" layoutX="2.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../star_PNG41474.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="31.0" layoutX="3.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../star_PNG41474.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="31.0" layoutX="110.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../star_PNG41474.png" />
+         </image>
+      </ImageView>
+   </children>
 </AnchorPane>
