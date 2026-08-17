@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <fx:include source="flag.fxml" StackPane.alignment="TOP_LEFT" />
+        <fx:include source="flag.fxml" StackPane.alignment="TOP_CENTER" />
+        <fx:include source="flag.fxml" StackPane.alignment="TOP_RIGHT" />
+        <fx:include source="flag.fxml" StackPane.alignment="CENTER_LEFT" />
+        <fx:include source="flag.fxml" StackPane.alignment="CENTER_RIGHT" />
+        <fx:include source="flag.fxml" StackPane.alignment="BOTTOM_LEFT" />
+        <fx:include source="flag.fxml" StackPane.alignment="BOTTOM_CENTER" />
+        <fx:include source="flag.fxml" StackPane.alignment="BOTTOM_RIGHT" />
+    </children>
+</StackPane>

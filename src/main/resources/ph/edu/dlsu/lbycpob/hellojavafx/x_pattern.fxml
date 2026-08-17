@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <fx:include layoutX="100.0" layoutY="50.0" source="flag.fxml" />
+        <fx:include layoutX="500.0" layoutY="50.0" source="flag.fxml" />
+
+        <fx:include layoutX="200.0" layoutY="200.0" source="flag.fxml" />
+        <fx:include layoutX="400.0" layoutY="200.0" source="flag.fxml" />
+
+        <fx:include layoutX="300.0" layoutY="350.0" source="flag.fxml" />
+
+        <fx:include layoutX="200.0" layoutY="500.0" source="flag.fxml" />
+        <fx:include layoutX="400.0" layoutY="500.0" source="flag.fxml" />
+
+        <fx:include layoutX="100.0" layoutY="650.0" source="flag.fxml" />
+        <fx:include layoutX="500.0" layoutY="650.0" source="flag.fxml" />
+    </children>
+</AnchorPane>
