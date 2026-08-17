@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+        <HBox alignment="CENTER"><children><fx:include source="flag.fxml" /></children></HBox>
+    </top>
+    <left>
+        <VBox alignment="CENTER"><children><fx:include source="flag.fxml" /></children></VBox>
+    </left>
+    <right>
+        <VBox alignment="CENTER"><children><fx:include source="flag.fxml" /></children></VBox>
+    </right>
+    <bottom>
+        <HBox alignment="CENTER"><children><fx:include source="flag.fxml" /></children></HBox>
+    </bottom>
+    <center>
+        <VBox alignment="CENTER" spacing="10">
+            <children>
+                <HBox alignment="CENTER" spacing="10">
+                    <children>
+                        <fx:include source="flag.fxml" />
+                        <fx:include source="flag.fxml" />
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" spacing="10">
+                    <children>
+                        <fx:include source="flag.fxml" />
+                        <fx:include source="flag.fxml" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>
