@@ -4,13 +4,14 @@
 <?import javafx.scene.shape.Polygon?>
 <?import javafx.scene.shape.Rectangle?>
 
-
-<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="200.0" maxWidth="400.0" minHeight="200.0" minWidth="400.0" prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0038a8" height="100.0" stroke="BLACK" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="400.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ce1126" height="100.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="400.0" />
       <Polygon fill="#e4e4e4" layoutX="83.0" layoutY="86.0" points="-83.0, 113.99996948242188, 68.20001220703125, 13.999969482421875, -83.0, -86.00001525878906" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
-      <fx:include source="sun.fxml" />
-      <fx:include source="star.fxml" />
+      <fx:include layoutX="-110.0" layoutY="-80.0" source="sun.fxml" />
+      <fx:include layoutX="10.0" layoutY="30.0" source="star.fxml" />
+      <fx:include layoutX="10.0" layoutY="180.0" source="star.fxml" />
+      <fx:include layoutX="130.0" layoutY="102.0" source="star.fxml" />
    </children>
 </AnchorPane>
